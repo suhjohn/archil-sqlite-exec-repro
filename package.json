@@ -1,0 +1,12 @@
+{
+  "name": "archil-sqlite-exec-repro",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.19" },
+  "scripts": { "bench": "node --env-file-if-exists=.env bench.mjs" },
+  "dependencies": {
+    "@archildata/sqlite": "0.0.23",
+    "@libsql/client": "0.18.0",
+    "disk": "1.12.0"
+  }
+}
